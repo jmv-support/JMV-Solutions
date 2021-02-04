@@ -45,14 +45,14 @@ body.login {
 	font-size: 0.9rem !important;
 	line-height: 2rem !important;
 	text-transform: uppercase;
-	background: #313131 !important;
+	background: #273c75 !important;
 	border-color: unset !important;
 	border-radius: 0 !important;
 	transition: all 1s ease;
 }
 
 .button-primary:hover {
-  background: #273c75 !important;
+  	background: #313131 !important;
 	box-shadow: 0 0 0.5rem #313131;
 }
 
