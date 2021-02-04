@@ -59,28 +59,26 @@ body.login {
 #nav a, a:visited {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	color: #313131 !important;
+	color: #ffffff !important;
 	font-size: 0.9;
 	text-transform: uppercase;
 	transition: all 1s ease;
 }
 
 #nav a:hover {
-  color: #273c75 !important;
 	text-decoration: underline;
 }
 
 #backtoblog a, a:visited {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	color: #313131 !important;
+	color: #ffffff !important;
 	font-size: 0.9rem;
 	text-transform: uppercase;
 	transition: all 1s ease;
 }
 
 #backtoblog a:hover {
-  color: #273c75 !important;
 	text-decoration: underline;
 }
 
