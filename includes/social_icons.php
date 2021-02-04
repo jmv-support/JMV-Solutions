@@ -15,7 +15,7 @@
 	</li>
 <?php endif; ?>
 <?php if ( 'on' === et_get_option( 'divi_show_google_icon', 'on' ) ) : ?>
-	<i class="fab fa-linkedin"></i>
+	<li class="et-social-icon et-social-linkedin">
 		<a href="<?php echo esc_url( et_get_option( 'divi_google_url', '#' ) ); ?>" class="icon">
 			<span><?php esc_html_e( 'Google', 'Divi' ); ?></span>
 		</a>
