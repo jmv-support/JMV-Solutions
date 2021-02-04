@@ -1,0 +1,96 @@
+/*
+ Theme Name:     JMV Solutions
+ Theme URI:      https://www.jmv-solutions.co.uk
+ Description:    Divi Child Theme
+ Author:         @jmvsolutions
+ Author URI:     https://twitter.com/jmvsolutions
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+body.login div#login h1 a {
+	background-image: url("/wp-content/themes/jmv-solutions/jmv-logo.png");
+}
+
+body.login {
+	background-image: url("/wp-content/themes/jmv-solutions/login-background.png");
+	background-size: cover;
+}
+
+.login h1 a {
+	background-size: contain;
+	height: 5rem;
+	width: unset;
+}
+
+.login form {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	color: #313131;
+	font-size: 1rem;
+	line-height: 1rem;
+	padding: 2rem;
+	border: 1px solid rgba(49,49,49,0.5);
+	box-shadow: 0 0 0.3rem rgb(49,49,49,0.5);
+}
+
+.button-primary, button-primary:visited {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 0.9rem !important;
+	line-height: 2rem !important;
+	text-transform: uppercase;
+	background: #313131 !important;
+	border-color: unset !important;
+	border-radius: 0 !important;
+	transition: all 1s ease;
+}
+
+.button-primary:hover {
+  background: #273c75 !important;
+	box-shadow: 0 0 0.5rem #313131;
+}
+
+#nav a, a:visited {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: #313131 !important;
+	font-size: 0.9;
+	text-transform: uppercase;
+	transition: all 1s ease;
+}
+
+#nav a:hover {
+  color: #273c75 !important;
+	text-decoration: underline;
+}
+
+#backtoblog a, a:visited {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: #313131 !important;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	transition: all 1s ease;
+}
+
+#backtoblog a:hover {
+  color: #273c75 !important;
+	text-decoration: underline;
+}
+
+.message {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	border-left: 0.5rem solid rgba(49,49,49,0.5) !important;
+	background: #313131 !important;
+	box-shadow: none;
+}
