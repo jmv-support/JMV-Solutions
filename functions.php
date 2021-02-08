@@ -40,6 +40,3 @@ function et_get_footer_credits() {
 
   return et_get_safe_localization( sprintf( $credits_format, $footer_credits, 'div' ) );
 }
-
-    <?php echo get_bloginfo( 'name' ); ?>
-<a href="https://www.google.com">Google</a>
