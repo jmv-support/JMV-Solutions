@@ -11,12 +11,12 @@ function custom_login_stylesheet() {
 add_action( 'login_enqueue_scripts', 'custom_login_stylesheet' );
 
 function my_login_logo_url() {
-    return 'https://www.officiallygarry.co.uk';
+    return 'https://www.jmv-solutions.co.uk';
 }
 add_filter('login_headerurl', 'my_login_logo_url');
 
 function my_login_logo_url_title() {
-    return 'The Adventures of a High Functioning Nerd';
+    return 'Website Design in Devon, Cornwall, Plymouth, Exeter and Newton Abbot';
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
