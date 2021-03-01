@@ -96,8 +96,3 @@ p#backtoblog a:hover {
 	background: #313131 !important;
 	box-shadow: none;
 }
-
-/**MAIN WEBSITE NAVIGATION**/
-#top-menu a:visited {
-	color: initial !important;
-}
