@@ -59,7 +59,7 @@ body.login {
 #nav a, a:visited {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	color: #ffffff !important;
+	color: #ffffff;
 	font-size: 0.9;
 	text-transform: uppercase;
 	transition: all 1s ease;
@@ -72,7 +72,7 @@ body.login {
 #backtoblog a, a:visited {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	color: #ffffff !important;
+	color: #ffffff;
 	font-size: 0.9rem;
 	text-transform: uppercase;
 	transition: all 1s ease;
