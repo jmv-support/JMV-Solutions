@@ -98,6 +98,6 @@ p#backtoblog a:hover {
 }
 
 /**MAIN WEBSITE NAVIGATION**/
-#top-menu a {
-	color: inherit !important;
+#top-menu a:visited {
+	color: initial !important;
 }
