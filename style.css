@@ -69,7 +69,7 @@ p#nav a:hover {
 	text-decoration: underline;
 }
 
-#backtoblog a, a:visited {
+p#backtoblog a {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	color: #ffffff;
@@ -78,7 +78,11 @@ p#nav a:hover {
 	transition: all 1s ease;
 }
 
-#backtoblog a:hover {
+p#backtoblog a:visited {
+	color: #ffffff;
+}
+
+p#backtoblog a:hover {
 	text-decoration: underline;
 }
 
@@ -91,4 +95,9 @@ p#nav a:hover {
 	border-left: 0.5rem solid rgba(49,49,49,0.5) !important;
 	background: #313131 !important;
 	box-shadow: none;
+}
+
+/**MAIN WEBSITE NAVIGATION**/
+#top-menu a:visited {
+	color: inherit !important;
 }
